@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+body {
+  background-image :url("https://i.redd.it/lxopq3ivyx701.png");
+  background-size : cover;
+}
+
+#menu {
+  width:0px;
+  height:0px;
+  
+  border-left: 300px solid transparent;
+  border-right:300px solid transparent;
+  border-top: 300px solid transparent;
+  border-radius: px;
+  position:relative;
+  margin:auto;
+  top:5px;
+  left:2px; 
+}
+
+#play {
+  position:relative;
+  bottom:320px;
+  right:300px;
+  height:50px;
+  width:600px;
+  background:#FFFFFF;
+  text-align:center;
+  font-size:30px;
+ background-size: 1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:1D435F;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+  cursor:pointer; 
+}
+
+#play p {
+  position:relative;
+  top:2px;
+  right:4px;
+  
+}
+
+#load {
+  height:50px;
+  width:500px;
+  background:#FFFFFF;
+  position:relative;
+  bottom:315px;
+  right:240px;
+  text-align:center;
+  font-size:30px;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+  color:1D435F;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;  
+}
+
+#load p {
+  position:relative;
+  top:0px;
+  right:9px;
+  
+}
+
+#set {
+  height:50px;
+  width:400px;
+  background:#FFFFFF;
+  position:relative;
+  bottom:300px;
+  right:200px;
+  font-size:30px;
+  text-align:center;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+  color:1D435F;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+#set p {
+  position:relative;
+  top:0px;
+  right:4px;
+}
+
+#exit {
+  height:50px;
+  width:300px;
+  position:relative;
+  background:#FFFFFF;
+  bottom:295px;
+  font-size:30px;
+  right:150px;
+  text-align:center;
+  font-family:Comic Sans MS;
+  color:1D435F;
+  font-weight: bold;
+   -webkit-transition:0.5s;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+#exit p {
+  position:relative;
+  top:0px;
+}
+
+#play:hover {
+  background:#2A667C;
+  color:white;
+-webkit-transform:rotate(-1deg);
+  transform:rotate(-2deg); 
+}
+
+#load:hover {
+  background:#2A667C;
+  color:white;
+   
+  -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);
+}
+
+#exit:hover {
+  background:#2A667C;
+  color:white;
+  -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg); 
+}
+
+#set:hover {
+  background:#2A667C;
+  color:white;
+  -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);
+}
+
+
+
+
+
